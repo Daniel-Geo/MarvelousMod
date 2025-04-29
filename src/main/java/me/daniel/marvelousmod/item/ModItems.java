@@ -20,8 +20,6 @@ public class ModItems {
     public static void registerModItems() {
         MarvelousMod.LOGGER.info("Registering Mod Items for " + MarvelousMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(PINK_GARNET);
-        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> entries.add(PINK_GARNET));
     }
 }
