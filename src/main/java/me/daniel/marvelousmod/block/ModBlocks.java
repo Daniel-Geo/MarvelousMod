@@ -23,6 +23,9 @@ public class ModBlocks {
             AbstractBlock.Settings.create().strength(3f)
                     .requiresTool());
 
+    public static final Block CONDENSED_DIRT_BLOCK = registerBlock("condensed_dirt_block",
+            AbstractBlock.Settings.create().strength(2f));
+
     private static Block registerBlock(String name, AbstractBlock.Settings blockSettings) {
         RegistryKey<Block> key = RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(MarvelousMod.MOD_ID, name));
         Block block = new Block(blockSettings.registryKey(key));
@@ -42,6 +45,7 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(PINK_GARNET_BLOCK);
             entries.add(RAW_PINK_GARNET_BLOCK);
+            entries.add(CONDENSED_DIRT_BLOCK);
         });
     }
 }
