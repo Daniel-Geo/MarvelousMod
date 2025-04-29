@@ -7,7 +7,7 @@
   "authors": [],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/marvelousmod/icon.png",
+  "icon": "assets/marvelousmod/textures/item/pink_garnet.png",
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
