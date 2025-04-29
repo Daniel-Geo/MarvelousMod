@@ -1,11 +1,12 @@
 {
   "item.marvelousmod.pink_garnet": "Pink Garnet",
   "item.marvelousmod.raw_pink_garnet": "Raw Pink Garnet",
+  "item.marvelousmod.suspicious_substance": "Suspicious Substance",
 
-  "block.marvelousmod.pink_garnet_block": "Block of Pink Garnet",
-  "block.marvelousmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
   "item.marvelousmod.pink_garnet_block": "Block of Pink Garnet",
   "item.marvelousmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
+  "block.marvelousmod.pink_garnet_block": "Block of Pink Garnet",
+  "block.marvelousmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
 
   "itemGroup.marvelousmod.pink_garnet_items": "Pink Garnet Items",
   "itemGroup.marvelousmod.pink_garnet_blocks": "Pink Garnet Blocks"

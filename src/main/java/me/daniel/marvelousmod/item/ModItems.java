@@ -2,6 +2,7 @@ package me.daniel.marvelousmod.item;
 
 import me.daniel.marvelousmod.MarvelousMod;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.registry.FuelRegistryEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -13,6 +14,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item PINK_GARNET = registerItem("pink_garnet", new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MarvelousMod.MOD_ID, "pink_garnet"))));
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MarvelousMod.MOD_ID, "raw_pink_garnet"))));
+    public static final Item SUSPICIOUS_SUBSTANCE = registerItem("suspicious_substance", new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MarvelousMod.MOD_ID, "suspicious_substance"))));
 
     private static Item registerItem(String name, Item.Settings itemSettings) {
         RegistryKey<Item> key = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MarvelousMod.MOD_ID, name));
@@ -26,6 +28,11 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(PINK_GARNET);
             entries.add(RAW_PINK_GARNET);
+            entries.add(SUSPICIOUS_SUBSTANCE);
+        });
+
+        FuelRegistryEvents.BUILD.register((builder, context) -> {
+            builder.add(ModItems.SUSPICIOUS_SUBSTANCE, 30 * 20);
         });
     }
 }
