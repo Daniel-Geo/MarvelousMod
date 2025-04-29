@@ -1,3 +1,9 @@
 {
-  "item.marvelousmod.pink_garnet": "Pink Garnet"
+  "item.marvelousmod.pink_garnet": "Pink Garnet",
+  "item.marvelousmod.raw_pink_garnet": "Raw Pink Garnet",
+
+  "block.marvelousmod.pink_garnet_block": "Block of Pink Garnet",
+  "block.marvelousmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
+  "item.marvelousmod.pink_garnet_block": "Block of Pink Garnet",
+  "item.marvelousmod.raw_pink_garnet_block": "Block of Raw Pink Garnet"
 }
