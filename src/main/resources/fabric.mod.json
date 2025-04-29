@@ -17,7 +17,7 @@
       "me.daniel.marvelousmod.client.MarvelousmodClient"
     ],
     "main": [
-      "me.daniel.marvelousmod.Marvelousmod"
+      "me.daniel.marvelousmod.MarvelousMod"
     ]
   },
   "mixins": [
