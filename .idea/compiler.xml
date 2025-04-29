@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="21" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="&quot;-AoutRefMapFile=E:\Daniel's projects\Java projects\Minecraft mods\MarvelousMod\build\classes\java\client\client-MarvelousMod-refmap.json&quot; -AdefaultObfuscationEnv=named:intermediary -Aquiet=true &quot;-AoutMapFileNamedIntermediary=E:\Daniel's projects\Java projects\Minecraft mods\MarvelousMod\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2.client.tiny&quot; -AinMapFileNamedIntermediary=C:\Users\danie\.gradle\caches\fabric-loom\1.21.5\net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2\mappings.tiny" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MarvelousMod.main" options="&quot;-AoutRefMapFile=E:\Daniel's projects\Java projects\Minecraft mods\MarvelousMod\build\classes\java\main\MarvelousMod-refmap.json&quot; -AdefaultObfuscationEnv=named:intermediary -Aquiet=true &quot;-AoutMapFileNamedIntermediary=E:\Daniel's projects\Java projects\Minecraft mods\MarvelousMod\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2.main.tiny&quot; -AinMapFileNamedIntermediary=C:\Users\danie\.gradle\caches\fabric-loom\1.21.5\net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2\mappings.tiny" />
+      <module name="MarvelousMod.test" options="&quot;-AoutRefMapFile=E:\Daniel's projects\Java projects\Minecraft mods\MarvelousMod\build\classes\java\test\test-MarvelousMod-refmap.json&quot; -AdefaultObfuscationEnv=named:intermediary -Aquiet=true &quot;-AoutMapFileNamedIntermediary=E:\Daniel's projects\Java projects\Minecraft mods\MarvelousMod\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2.test.tiny&quot; -AinMapFileNamedIntermediary=C:\Users\danie\.gradle\caches\fabric-loom\1.21.5\net.fabricmc.yarn.1_21_5.1.21.5+build.1-v2\mappings.tiny" />
+    </option>
+  </component>
+</project>
