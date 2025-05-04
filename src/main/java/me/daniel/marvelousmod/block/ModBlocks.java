@@ -23,6 +23,11 @@ public class ModBlocks {
             AbstractBlock.Settings.create().strength(3f)
                     .requiresTool());
 
+    public static final Block PINK_GARNET_ORE = registerBlock("pink_garnet_ore",
+            AbstractBlock.Settings.create().strength(3f).requiresTool());
+    public static final Block PINK_GARNET_DEEPSLATE_ORE = registerBlock("pink_garnet_deepslate_ore",
+            AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE));
+
     public static final Block CONDENSED_DIRT_BLOCK = registerBlock("condensed_dirt_block",
             AbstractBlock.Settings.create().strength(2f));
 
@@ -46,6 +51,8 @@ public class ModBlocks {
             entries.add(PINK_GARNET_BLOCK);
             entries.add(RAW_PINK_GARNET_BLOCK);
             entries.add(CONDENSED_DIRT_BLOCK);
+            entries.add(PINK_GARNET_ORE);
+            entries.add(PINK_GARNET_DEEPSLATE_ORE);
         });
     }
 }
