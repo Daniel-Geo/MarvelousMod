@@ -11,7 +11,22 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "marvelousmod:raw_pink_garnet_block"
+          "name": "marvelousmod:raw_pink_garnet"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "marvelousmod:suspicious_substance"
         }
       ],
       "rolls": 1.0
