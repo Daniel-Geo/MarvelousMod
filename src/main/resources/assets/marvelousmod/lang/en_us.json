@@ -1,9 +1,25 @@
 {
   "item.marvelousmod.pink_garnet": "Pink Garnet",
   "item.marvelousmod.raw_pink_garnet": "Raw Pink Garnet",
+  "item.marvelousmod.suspicious_substance": "Suspicious Substance",
+  "item.marvelousmod.chisel": "Chisel",
+  "item.marvelousmod.cauliflower": "Cauliflower",
+  "item.marvelousmod.starlight_ashes": "starlight_ashes",
+
+  "item.marvelousmod.pink_garnet_block": "Block of Pink Garnet",
+  "item.marvelousmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
+  "item.marvelousmod.pink_garnet_ore": "Pink Garnet Ore",
+  "item.marvelousmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
+  "item.marvelousmod.condensed_dirt_block": "Block of Condensed Dirt",
+  "item.marvelousmod.magic_block": "Magic Block",
 
   "block.marvelousmod.pink_garnet_block": "Block of Pink Garnet",
   "block.marvelousmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
-  "item.marvelousmod.pink_garnet_block": "Block of Pink Garnet",
-  "item.marvelousmod.raw_pink_garnet_block": "Block of Raw Pink Garnet"
+  "block.marvelousmod.pink_garnet_ore": "Pink Garnet Ore",
+  "block.marvelousmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
+  "block.marvelousmod.condensed_dirt_block": "Block of Condensed Dirt",
+  "block.marvelousmod.magic_block": "Magic Block",
+
+  "itemGroup.marvelousmod.pink_garnet_items": "Pink Garnet Items",
+  "itemGroup.marvelousmod.pink_garnet_blocks": "Pink Garnet Blocks"
 }
